@@ -46,7 +46,7 @@ func UniqueEleSlice1(s []int) []int {
 	uniqueMap := make(map[int]bool)
 	for _, v := range s {
 		exists := uniqueMap[v]
-		fmt.Println(uniqueMap)
+		//fmt.Println(uniqueMap)
 
 		if !exists {
 			uniqueMap[v] = true
